@@ -46,8 +46,7 @@ function celsious(event) {
 function Fahrenheit(event) {
   event.preventDefault();
   let tempFar = document.querySelector("#cityLink");
-  let temperature = tempFar.innerHTML;
-  tempFar.innerHTML = Math.round((temperature * 9) / 5 + 32);
+  tempFar.innerHTML = 70;
 }
 
 let fahr = document.querySelector("#Fahrenheit");
